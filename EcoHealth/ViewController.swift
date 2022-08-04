@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var trees : String = ""
+    @IBOutlet weak var treesPlanted: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        treesPlanted.text = ("\(trees)")
     }
 
 
