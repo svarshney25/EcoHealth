@@ -24,16 +24,17 @@
                                 <color key="textColor" red="0.69803923369999998" green="0.8392156959" blue="0.84313726430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click the button below, and find the best sustainable workout for you!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WeT-8G-FZ0">
-                                <rect key="frame" x="21" y="109" width="372" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WeT-8G-FZ0">
+                                <rect key="frame" x="21" y="109" width="372" height="254.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92186564209999999" green="0.97604554889999995" blue="0.9477459788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Click the button below, and find the best sustainable workout for you! Remember to always stretch before and after your workout and to stay hydrated! Once you have completed it, make sure to check out the foods page to find healthy, sustainable options.</string>
                                 <color key="textColor" red="0.70980393890000004" green="0.79607844350000001" blue="0.67450982329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5Q-fN-wqM">
-                                <rect key="frame" x="122" y="537" width="171" height="52"/>
+                                <rect key="frame" x="122" y="643" width="171" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.70980393890000004" green="0.79607844350000001" blue="0.67450982329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -41,7 +42,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Generate Workout">
                                             <attributes>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <font key="NSFont" size="22" name="GillSans"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -52,14 +53,33 @@
                                     <action selector="create:" destination="9AF-6n-X9s" eventType="touchUpInside" id="dep-LN-PEu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfd-vL-KPy">
+                                <rect key="frame" x="122" y="734" width="171" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.70980393890000004" green="0.79607844350000001" blue="0.67450982329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Complete!">
+                                            <attributes>
+                                                <font key="NSFont" size="22" name="GillSans"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.70980393890000004" green="0.79607844350000001" blue="0.67450982329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="create:" destination="9AF-6n-X9s" eventType="touchUpInside" id="dWM-fV-4UK"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="characterWrap" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxr-uY-FL1">
-                                <rect key="frame" x="48" y="186" width="318" height="343"/>
+                                <rect key="frame" x="35" y="320" width="345" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Go for a 30 minute run outside at a nice, slow pace! Running outside lets you save electricity by not using a treadmill. Remember to stretch before and after. Check out what to eat after your workout to make sure you're getting the benefits of your run.</string>
+                                    <fragment content="Go for a 30 minute run outside at a nice, slow pace! Running outside lets you save electricity by not using a treadmill.">
                                         <attributes>
-                                            <font key="NSFont" size="19" name="STHeitiTC-Light"/>
+                                            <font key="NSFont" size="20" name="STHeitiTC-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -68,9 +88,12 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xu0-Rk-qes"/>
-                        <color key="backgroundColor" red="0.92186564209999999" green="0.97604554889999995" blue="0.9477459788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.93333339689999995" green="0.97647058959999999" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="opp-sN-mIw"/>
+                    <connections>
+                        <outlet property="workout" destination="Bxr-uY-FL1" id="Xk7-7e-MQi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sBN-eR-bMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -188,16 +211,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clh-oq-tgi">
-                                <rect key="frame" x="124" y="133" width="35" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FOOD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqE-VH-0GE">
+                                <rect key="frame" x="20" y="44" width="373" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="46"/>
+                                <color key="textColor" red="0.69803923369999998" green="0.8392156959" blue="0.84313726430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6n9-Q8-i2E"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93333339689999995" green="0.97647058959999999" blue="0.94901961089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="1RA-az-u4r"/>
                 </viewController>
@@ -214,7 +237,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5L-Dg-hvu">
-                                <rect key="frame" x="15" y="44" width="385" height="56"/>
+                                <rect key="frame" x="14" y="48" width="385" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="INFORMATION">
@@ -303,9 +326,6 @@
         </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

@@ -20,7 +20,6 @@
 		532DEB882899F8A800DC48C8 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532DEB872899F8A800DC48C8 /* workoutViewController.swift */; };
 		532DEB8A2899F8B500DC48C8 /* foodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532DEB892899F8B500DC48C8 /* foodViewController.swift */; };
 		532DEB8C2899F8C100DC48C8 /* factsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532DEB8B2899F8C100DC48C8 /* factsViewController.swift */; };
-		5362B478289AE77A001A2349 /* yourPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362B477289AE77A001A2349 /* yourPlanViewController.swift */; };
 		7B68A836289ABE8F00B60F99 /* DailyFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68A835289ABE8F00B60F99 /* DailyFactsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		532DEB872899F8A800DC48C8 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
 		532DEB892899F8B500DC48C8 /* foodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodViewController.swift; sourceTree = "<group>"; };
 		532DEB8B2899F8C100DC48C8 /* factsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = factsViewController.swift; sourceTree = "<group>"; };
-		5362B477289AE77A001A2349 /* yourPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourPlanViewController.swift; sourceTree = "<group>"; };
 		7B68A835289ABE8F00B60F99 /* DailyFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +113,6 @@
 				532DEB562899A01100DC48C8 /* SceneDelegate.swift */,
 				532DEB582899A01100DC48C8 /* ViewController.swift */,
 				532DEB5A2899A01100DC48C8 /* Main.storyboard */,
-				5362B477289AE77A001A2349 /* yourPlanViewController.swift */,
 				532DEB872899F8A800DC48C8 /* workoutViewController.swift */,
 				532DEB892899F8B500DC48C8 /* foodViewController.swift */,
 				532DEB8B2899F8C100DC48C8 /* factsViewController.swift */,
@@ -281,7 +278,6 @@
 				532DEB8C2899F8C100DC48C8 /* factsViewController.swift in Sources */,
 				532DEB552899A01100DC48C8 /* AppDelegate.swift in Sources */,
 				7B68A836289ABE8F00B60F99 /* DailyFactsViewController.swift in Sources */,
-				5362B478289AE77A001A2349 /* yourPlanViewController.swift in Sources */,
 				532DEB572899A01100DC48C8 /* SceneDelegate.swift in Sources */,
 				532DEB882899F8A800DC48C8 /* workoutViewController.swift in Sources */,
 				532DEB5F2899A01100DC48C8 /* EcoHealth.xcdatamodeld in Sources */,
