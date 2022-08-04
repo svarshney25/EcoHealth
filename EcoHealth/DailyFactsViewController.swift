@@ -9,6 +9,12 @@ import UIKit
 
 class DailyFactsViewController: UIViewController {
 
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +22,10 @@ class DailyFactsViewController: UIViewController {
     }
     
 
+    @IBAction func factButton(_ sender: Any) {
+    }
+}
+    
     /*
     // MARK: - Navigation
 

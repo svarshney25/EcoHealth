@@ -9,13 +9,20 @@ import UIKit
 
 class factsViewController: UIViewController {
 
+    @IBOutlet weak var lfactLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        lfactLabel.isHidden = true
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func factButton(_ sender: Any) {
+        let array = ["Carbon dioxide levels are at the highest it has been in two million years.", "Sea levels are rising faster than ever before.", "One of the biggest contributors to climate change is the entrapment of greenhouse gases in our atmosphere. ","The usage any gym equipment that requires electricty only increases carbon footprint."]
+        lfactLabel.text = array.randomElement()
+        lfactLabel.isHidden = false
+    }
+    
     /*
     // MARK: - Navigation
 
