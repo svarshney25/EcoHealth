@@ -9,12 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var trees : String = ""
+    var trees : Int = 0
     @IBOutlet weak var treesPlanted: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        treesPlanted.text = ("\(trees)")
+        treesPlanted.text = "You crushed it! Click 'Food' to find a healthy meal. Total Trees Planted: \(trees)"
     }
 
 
